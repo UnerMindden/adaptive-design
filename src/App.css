@@ -1,0 +1,80 @@
+body {
+  background: no-repeat right top url("https://img.freepik.com/free-photo/plumber-doing-victory-gesture_1368-781.jpg?w=740&t=st=1682084710~exp=1682085310~hmac=78814e4f6f36e35b90fa88821482477f70304d9b9415ca05ecd715683ce55df2");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  width: 60vh;
+  font-size: 26px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 15vh; */
+  padding: 80px;
+  word-wrap: break-word;
+  line-height: 10vh;
+  letter-spacing: -2px;
+  height: 25vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: -40vh;
+  left: 0;
+  right: 0;
+  padding-left: 80px;
+  font-size: 14px;
+}
+
+
+.logo {
+  padding: 40px 0px 0px 80px;
+}
+
+.rigth-img {
+  width: 80vh;
+}
+
+.appstore-img {
+  width: 30vh;
+  margin: 0px 40px 0px 80px;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    background: left top url("https://img.freepik.com/free-photo/plumber-doing-victory-gesture_1368-781.jpg?w=740&t=st=1682084710~exp=1682085310~hmac=78814e4f6f36e35b90fa88821482477f70304d9b9415ca05ecd715683ce55df2");
+  }
+
+  .logo {
+    padding: 40px 0px 0px 15px;
+  }
+  .appstore-img {
+    margin: 10px;
+  }
+
+  .wrapper {
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+  }
+  .title {
+    font-size: 20px;
+  }
+ .rigth-img {
+  margin-top: 15vh;
+ } 
+ .footer {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+}
+
+a {
+  text-decoration: none;
+  color: burlywood
+}
